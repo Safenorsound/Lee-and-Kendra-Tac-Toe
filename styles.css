@@ -68,6 +68,11 @@ body {
   background-color: red;
 } */
 
+img {
+  width: calc(var(--mark-size) * 0.15);
+  height: var(--mark-size);
+}
+
 .board.x .cell:not(.x):not(.circle):hover::before,
 .board.x .cell:not(.x):not(.circle):hover::after,
 .board.circle .cell:not(.x):not(.circle):hover::before {
@@ -86,16 +91,23 @@ body {
   position: absolute;
 }
 
+pgn {
+}
+
 /* Creating the "X" Shape */
 .cell.x::before,
 .board.x .cell:not(.x):not(.circle):hover::before {
   /* transform: rotate(45deg); */
+  content: url('images/Lee.png');
+  /* position: absolute; */
 }
 
-/* .cell.x::after,
+.cell.x::after,
 .board.x .cell:not(.x):not(.circle):hover::after {
-  transform: rotate(-45deg);
-} */
+  /* transform: rotate(-45deg); */
+  content: url('images/Lee.png');
+  /* position: absolute; */
+}
 
 /* Creating the Circle & Hover Effects*/
 .cell.circle::before,
@@ -112,15 +124,15 @@ body {
 
 .cell.circle::before,
 board.circle .cell:not(.x):not(circle):hover::before {
+  content: url('images/Kendra.png');
+
   width: var(--mark-size);
   height: var(--mark-size);
 }
 
 .cell.circle::after,
 .board.circle .cell:not(.x):not(circle):hover::after {
-  width: calc(var(--mark-size) * 0.7);
-  height: calc(var(--mark-size) * 0.7);
-  background-color: white;
+  content: url('images/Kendra.png');
 }
 
 .winning-message {
