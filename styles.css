@@ -23,6 +23,7 @@ body {
   align-items: center;
   grid-template-columns: repeat(3, auto);
   margin-top: 0;
+  margin-bottom: 4rem;
 }
 
 .cell {
