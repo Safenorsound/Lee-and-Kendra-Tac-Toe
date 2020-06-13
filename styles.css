@@ -83,21 +83,16 @@ h1 {
   position: absolute;
 }
 
-/* Creating the "X" Shape */
+/* Creating Lee */
 .cell.x::before,
 .board.x .cell:not(.x):not(.circle):hover::before {
-  /* transform: rotate(45deg); */
   content: url('images/Lee.png');
-  /* max-width: calc(var(--mark-size) * 0.15);
-  max-height: var(--mark-size); */
-  /* position: absolute; */
+  opacity: 0.5;
 }
 
 .cell.x::after,
 .board.x .cell:not(.x):not(.circle):hover::after {
-  /* transform: rotate(-45deg); */
   content: url('images/Lee.png');
-  /* position: absolute; */
 }
 
 /* Creating the Circle & Hover Effects*/
@@ -125,13 +120,7 @@ board.circle .cell:not(.x):not(circle):hover::before {
   content: url('images/Kendra.png');
 }
 
-/* content {
-  width: calc(var(--mark-size) * 0.15);
-  height: var(--mark-size);
-} */
-
 img {
-  /* width: calc(var(--mark-size) * 0.15); */
   height: var(--mark-size);
   position: absolute;
 }
