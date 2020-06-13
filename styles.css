@@ -71,18 +71,6 @@ h1 {
   cursor: not-allowed;
 }
 
-/* .cell.x::before,
-.cell.x::after,
-.cell.circle::before {
-  background-color: red;
-} */
-
-.board.x .cell:not(.x):not(.circle):hover::before,
-.board.x .cell:not(.x):not(.circle):hover::after,
-.board.circle .cell:not(.x):not(.circle):hover::before {
-  background-color: lightgrey;
-}
-
 /* Creating the X and Hover*/
 .cell.x::before,
 .cell.x::after,
