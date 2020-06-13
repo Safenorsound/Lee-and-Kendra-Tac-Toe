@@ -41,7 +41,7 @@ h1 {
   font-family: 'Parisienne', cursive;
   text-align: center;
   font-size: 4rem;
-  margin-bottom: 0;
+  margin: 1rem;
 }
 
 /* Removing Outer Borders */
