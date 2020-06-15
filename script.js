@@ -58,7 +58,7 @@ function endGame(draw) {
     winningMessageTextElement.innerText = 'Draw!';
   } else {
     winningMessageTextElement.innerText = `${
-      circleTurn ? 'Kendra' : 'Lee'
+      circleTurn ? 'Superman' : 'Batman'
     } Wins!`;
   }
   winningMessageElement.classList.add('show');
