@@ -86,13 +86,13 @@ h1 {
 /* Creating Lee */
 .cell.x::before,
 .board.x .cell:not(.x):not(.circle):hover::before {
-  content: url('images/Lee.png');
+  content: url('images/Batman.png');
   opacity: 0.5;
 }
 
 .cell.x::after,
 .board.x .cell:not(.x):not(.circle):hover::after {
-  content: url('images/Lee.png');
+  content: url('images/Batman.png');
 }
 
 /* Creating the Circle & Hover Effects*/
@@ -109,7 +109,7 @@ h1 {
 
 .cell.circle::before,
 board.circle .cell:not(.x):not(circle):hover::before {
-  content: url('images/Kendra.png');
+  content: url('images/Superman.png');
 
   width: var(--mark-size);
   height: var(--mark-size);
@@ -117,7 +117,7 @@ board.circle .cell:not(.x):not(circle):hover::before {
 
 .cell.circle::after,
 .board.circle .cell:not(.x):not(circle):hover::after {
-  content: url('images/Kendra.png');
+  content: url('images/Superman.png');
 }
 
 img {
